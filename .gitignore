@@ -1,7 +1,8 @@
 .DS_Store
 node_modules
-/dist
-/storybook-static
+dist
+storybook-static
+cypress/videos
 
 # local env files
 .env.local

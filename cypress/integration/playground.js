@@ -3,7 +3,7 @@ import * as stubs from '../support/stubs.js'
 
 describe('Test playground to develop tests', () => 
 {
-	it('open the page with all stubs', function() {
+	it('[UI] open the page with all stubs for ui integration tests.', function() {
 		cy.server()
 		stubs.stubAll()
 		cy.visit('/vue')
