@@ -1,1 +1,7 @@
-{}
+{
+	"baseUrl": "http://todomvc.com/examples/",
+	"env": {
+		"login_username": "myUserNameExample",
+		"login_password": "myPasswordExample"
+	}
+}
