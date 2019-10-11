@@ -2,12 +2,17 @@
 
 With this template you can download the project and start working with Cypress E2E.
 
-The first time you clone this repository you need to initialize it with:
+## Requirements
+* [Node Js](https://nodejs.org)
+* Code editor ([Visual Studio Code](https://code.visualstudio.com) recommended)
+
+## How to run
+The first time you clone this repository you need to initialize it by running this command from the project directory:
 ```
 npm install
 ```
 
-To run the tests in debug mode file by file with user interface, execute the command:
+To run the tests in debug mode, file by file with user interface, execute the command:
 ```
 npm run test:dev
 ```
