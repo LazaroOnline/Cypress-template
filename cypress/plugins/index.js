@@ -27,6 +27,7 @@ const pickTests = (filename, foundTests, cypressConfig) => {
 }
 */
 
+/*
 const selectTestsWithGrep = require('cypress-select-tests/grep')
 module.exports = (on, config) => {
 	// `on` is used to hook into various events Cypress emits
@@ -35,3 +36,8 @@ module.exports = (on, config) => {
 	// Custom selector:
 	// on('file:preprocessor', selectTests(config, pickTests))
 }
+*/
+
+const pickle = require('picklejs/cypress');
+
+module.exports = pickle;

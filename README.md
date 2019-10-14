@@ -31,6 +31,8 @@ npm run test:ui
 
 * [Cypress](https://docs.cypress.io/guides/overview/why-cypress.html)
 * [Test Selector](https://github.com/bahmutov/cypress-select-tests#cypress-select-tests)
+* [Cucumber](https://cucumber.io/docs)
+* [PickleJs](https://www.picklejs.com)
 
 Other Plugins:
 * [Drag & Drop](https://github.com/4teamwork/cypress-drag-drop#cypress-drag-drop)
@@ -46,6 +48,7 @@ npx @bahmutov/cly init
 
 npm install -D cypress-select-tests
 npm install -D cypress-dark
+npm install -D picklejs
 ```
 Other usefull plugins:
 ```

@@ -1,0 +1,12 @@
+{
+    "Header": {
+        "default": ".Header",
+        "Search Input": ".SearchInput",
+        "Getting Started Link": "a[href='getting-started']"
+    },
+
+    "Sidebar": {
+        "default": ".Sidebar",
+        "Phrases Link": "a:contains('Phrases')"
+    }
+}

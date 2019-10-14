@@ -12,5 +12,8 @@
 // You can read more here:
 // https://on.cypress.io/configuration
 // ***********************************************************
-import './commands'
-import 'cypress-dark'
+// import './commands'
+// import 'cypress-dark'
+
+import init from 'picklejs/cypress'
+init()
