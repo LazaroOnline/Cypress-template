@@ -3,6 +3,7 @@ node_modules
 dist
 storybook-static
 cypress/videos
+cypress/screenshots
 
 # local env files
 .env.local
