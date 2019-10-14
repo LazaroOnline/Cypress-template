@@ -38,6 +38,6 @@ module.exports = (on, config) => {
 }
 */
 
-const pickle = require('picklejs/cypress');
+const pickle = require('picklejs/cypress/plugin');
 
 module.exports = pickle;
