@@ -1,15 +1,10 @@
 {
-  "name": "ccc-e2e-tests",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "Cypress-template",
   "scripts": {
-    "test:dev": "cypress open",
-    "test:all": "cypress run",
-    "test:ui": "cypress run --env grep=[UI]"
+    "test-Dev": "cypress open",
+    "test-All": "cypress run",
+    "test-UI": "cypress run --env grep=[UI]"
   },
-  "author": "",
-  "license": "ISC",
   "devDependencies": {
     "cypress": "^3.4.1",
     "cypress-dark": "^1.7.14",
