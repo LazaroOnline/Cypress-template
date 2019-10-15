@@ -12,8 +12,5 @@
 // You can read more here:
 // https://on.cypress.io/configuration
 // ***********************************************************
-// import './commands'
-// import 'cypress-dark'
-
-import init from 'picklejs/cypress'
-init()
+import './commands'
+// import 'cypress-dark' // TODO: uncomment when this issue is solved: https://github.com/bahmutov/cypress-dark/issues/152

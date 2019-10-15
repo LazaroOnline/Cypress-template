@@ -1,10 +1,9 @@
 {
-    "Header": {
-        "default": ".Header",
-        "Search Input": ".SearchInput",
-        "Getting Started Link": "a[href='getting-started']"
+    "Plain English Name": ".Selector",
+    "Some Container": {
+        "default": ".Container-Class",
+        "Some Subcomponent": ".Subcomponent Class"
     },
-
     "Sidebar": {
         "default": ".Sidebar",
         "Phrases Link": "a:contains('Phrases')"

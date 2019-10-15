@@ -5,11 +5,14 @@ With this template you can download the project and start working with Cypress E
 ## Requirements
 * [Node Js](https://nodejs.org)
 * Code editor ([Visual Studio Code](https://code.visualstudio.com) recommended)
+* Visual Studio Code's [plugin for Cucumber's gherkin syntax](https://marketplace.visualstudio.com/items?itemName=alexkrechik.cucumberautocomplete)
+* [yarn](https://yarnpkg.com/en/docs/install)
 
 ## How to run
 The first time you clone this repository you need to initialize it by running this command from the project directory:
 ```
 npm install
+yarn install
 ```
 
 To run the tests in debug mode, file by file with user interface, execute the command:
@@ -32,6 +35,8 @@ npm run test:ui
 * [Cypress](https://docs.cypress.io/guides/overview/why-cypress.html)
 * [Test Selector](https://github.com/bahmutov/cypress-select-tests#cypress-select-tests)
 * [Cucumber](https://cucumber.io/docs)
+* [Cucumber Js](https://github.com/cucumber/cucumber-js#cucumberjs)
+* [Cucumber Preprocessor](https://github.com/TheBrainFamily/cypress-cucumber-preprocessor#run-cucumbergherkin-syntaxed-specs-with-cypressio)
 * [PickleJs](https://www.picklejs.com)
 
 Other Plugins:
