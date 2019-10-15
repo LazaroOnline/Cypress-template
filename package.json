@@ -4,11 +4,10 @@
 	"description": "",
 	"main": "index.js",
 	"scripts": {
-		"test:dev": "cypress open",
-		"test:dev-Test": "cypress open --spec \"**/*.feature\"",
-		"test:all": "cypress run",
-		"test:ui": "cypress run --env grep=[UI]",
-		"test:cucumber": "cypress run --spec **/*.features"
+		"test-Dev": "cypress open",
+		"test-All": "cypress run",
+		"test-Cypress": "cypress run --spec **/*.js",
+		"test-Cucumber": "cypress run --spec **/*.feature"
 	},
 	"author": "",
 	"license": "ISC",
