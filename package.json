@@ -1,5 +1,5 @@
 {
-  "name": "Cypress-template",
+  "name": "cypress-template",
   "scripts": {
     "test-Dev": "cypress open",
     "test-All": "cypress run",
