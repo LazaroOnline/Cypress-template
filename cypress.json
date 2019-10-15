@@ -1,5 +1,6 @@
 {
 	"baseUrl": "http://todomvc.com/examples/",
+	"video": false,
 	"env": {
 		"login_username": "myUserNameExample",
 		"login_password": "myPasswordExample"
