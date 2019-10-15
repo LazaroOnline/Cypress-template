@@ -17,12 +17,12 @@ yarn install
 
 To run the tests in debug mode, file by file with user interface, execute the command:
 ```
-npm run test:dev
+npm run test-Dev
 ```
 
 To run all tests faster and without UI which is the recommended way to run them all, use:
 ```
-npm run test:all
+npm run test-All
 ```
 
 To run only tests written in pure cypress js, use:

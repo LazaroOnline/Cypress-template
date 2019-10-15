@@ -7,12 +7,15 @@ describe('Test playground to develop tests', () =>
 		cy.server()
 		stubs.stubAll()
 		cy.visit('/vue')
-		
+	})
+
+	it('[API] open the page without stubs for e2e tests.', function() {
+		cy.visit('/vue')
 	})
 
 	xit('Tests with xit are skipped', () => {
-
 		cy.login()
 		// ...	
 	})
+
 })
