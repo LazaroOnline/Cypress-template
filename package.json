@@ -6,8 +6,8 @@
     "test-UI": "cypress run --env grep=[UI]"
   },
   "devDependencies": {
-    "cypress": "^4.11.0",
+    "cypress": "^5.2.0",
     "cypress-dark": "^1.7.14",
-    "cypress-select-tests": "^1.5.7"
+    "cypress-select-tests": "^1.5.8"
   }
 }
