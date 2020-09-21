@@ -29,8 +29,8 @@ Cypress.Commands.add('findDataTest', { prevSubject: true }, (subject, selectorAt
 })
 
 Cypress.Commands.add('login', (userName, userPass) => {
-	var loginUser = username || Cypress.env('login_username')
-	var loginPass = password || Cypress.env('login_password')
+	var loginUser = userName || Cypress.env('login_username')
+	var loginPass = userPass || Cypress.env('login_password')
 
 	// TODO: login in your app programmatically for non-login related tests. It is the recommended and fastest way. Do not use your UI to login before each test.
 	// See examples for different types of logins at:
