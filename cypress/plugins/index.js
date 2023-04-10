@@ -26,12 +26,3 @@ const pickTests = (filename, foundTests, cypressConfig) => {
 	return foundTests.filter(fullTestName => fullTestName.join(' ').includes('does'))
 }
 */
-
-const selectTestsWithGrep = require('cypress-select-tests/grep')
-module.exports = (on, config) => {
-	// `on` is used to hook into various events Cypress emits
-	// `config` is the resolved Cypress config
-	on('file:preprocessor', selectTestsWithGrep(config))
-	// Custom selector:
-	// on('file:preprocessor', selectTests(config, pickTests))
-}

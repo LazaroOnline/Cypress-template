@@ -27,10 +27,19 @@ To run only tests with titles containing "[UI]", use:
 npm run test-UI
 ```
 
+To update the libraries run:
+```
+npm install -D cypress@latest
+npm install -D @cypress/grep@latest
+```
+
+
 ## Documentation
 
-* [Cypress](https://docs.cypress.io/guides/overview/why-cypress.html)
-* [Test Selector](https://github.com/bahmutov/cypress-select-tests#cypress-select-tests)
+* [Cypress](https://docs.cypress.io/guides/overview/why-cypress.html)  
+* [Test Grep Selector](https://github.com/cypress-io/cypress/tree/develop/npm/grep)  
+  To filter test by tags [see the tag docs](https://github.com/cypress-io/cypress/tree/develop/npm/grep#filter-with-tags)  
+
 
 Other Plugins:
 * [Drag & Drop](https://github.com/4teamwork/cypress-drag-drop#cypress-drag-drop)
@@ -42,12 +51,12 @@ This template was built by using these commands:
 ```
 npm init
 npm install -D cypress
+npm install -D @cypress/grep 
 npx @bahmutov/cly init
 
-npm install -D cypress-select-tests
-npm install -D cypress-dark
+npm install -D cypress-grep
 ```
-Other usefull plugins:
+Other useful plugins:
 ```
 npm install -D @4tw/cypress-drag-drop
 npm install -D cypress-file-upload

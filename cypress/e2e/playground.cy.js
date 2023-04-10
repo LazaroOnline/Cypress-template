@@ -1,10 +1,9 @@
 /// <reference types="Cypress" />
-import * as stubs from '../../support/stubs.js'
+import * as stubs from '../support/stubs.js'
 
-describe('Test playground to develop tests', () => 
+describe('Test playground to develop tests', { tags: ['Playground']}, () => 
 {
-	it('[UI] open the page with all stubs for ui integration tests.', function() {
-		cy.server()
+	it('[UI] open the page with all stubs for ui integration tests.', {tags: ['UI','UX']}, function() {
 		stubs.stubAll()
 		cy.visit('/vue')
 	})

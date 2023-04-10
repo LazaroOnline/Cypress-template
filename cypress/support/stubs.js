@@ -1,19 +1,15 @@
 
-/** Prevent any api call that can modify data. Usefull to perform UI integration tests. */
+/** Prevent any api call that can modify data. Useful to perform UI integration tests. */
 export var stubAll = () => {
-	stubAllEditsForUrl('**', '*')
+	stubAllEditsForUrl('.*', 'all')
 }
 
-export var stubAllEditsForUrl = (url = '**', aliasPrefix = '*', response = 'Ok (cypress stub response)') => {
-	var methods = ['POST', 'PATCH', 'DELETE', 'PUT']
-	for (let method of methods) {
-		var alias = `${aliasPrefix}-${method}`
-		var routeOptions = {
-			url: url,
-			method: method,
-			response: response
-		}
-		cy.route(routeOptions)
-			.as(alias)
+export var stubAllEditsForUrl = (url, alias, staticResponse = { statusCode: 200, body: 'Ok (cypress stub response)' }) => {
+	// If no methods are specified then all methods are intercepted.
+	// var methods = ['GET', 'POST', 'PUT', 'PATCH', 'DELETE']
+	var routeMatcher = {
+		url: url,
 	}
+	cy.intercept(routeMatcher, staticResponse)
+		.as(alias)
 }

@@ -3,11 +3,11 @@
   "scripts": {
     "test-Dev": "cypress open",
     "test-All": "cypress run",
-    "test-UI": "cypress run --env grep=[UI]"
+    "test-UI-byText": "cypress run --env grep=[UI]",
+    "test-UI-byTag": "cypress run --env grepTags=\"UI+UI\""
   },
   "devDependencies": {
-    "cypress": "^5.2.0",
-    "cypress-dark": "^1.7.14",
-    "cypress-select-tests": "^1.5.8"
+    "@cypress/grep": "^3.1.5",
+    "cypress": "^12.9.0"
   }
 }
